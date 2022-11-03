@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: bisque;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.subContainer {
+    display: flex;
+    
+}
+
+.subContainer span {
+    margin: 16px;
+}
+
+.synsetsOutput {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px;
+}
+
+.synsetTable {
+    margin: 16px;
+    padding: 8px;
+    border-color: gray;
+    background-color: rgb(164, 255, 225);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.synsetTable tbody:first-child {
+    font-weight: bold;
+}
+
+.synsetTable tbody {
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+td {
+    border: 1px solid;
+    padding: 2px;
+  }

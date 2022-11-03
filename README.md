@@ -1,1 +1,1 @@
-# openthesaurus
+# opentheasaurus
